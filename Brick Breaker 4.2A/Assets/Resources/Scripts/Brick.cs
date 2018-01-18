@@ -30,7 +30,7 @@ public class Brick : MonoBehaviour {
         if (this.tag == "Breakable")
         {
             timesHit++;
-            //print(this.name + " : " + timesHit);
+            print(this.name + " : " + timesHit);
 
             if (timesHit >= maxHits)
             {                
